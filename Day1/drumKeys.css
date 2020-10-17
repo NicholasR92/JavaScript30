@@ -1,0 +1,38 @@
+/* centering header */
+/*.drumKitName{
+	display: flex;
+	color: orange;
+	justify-content: center;
+	
+}
+*/
+.drumKitName h1{
+	display: flex;
+	color: orange;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+
+/* center keys */
+.keyset {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+}
+
+.key {
+	text-align: center;
+	width: 8%;
+	margin: auto;
+	border-radius: 2px;
+	background-color: #ff4dd2;
+}
+
+.key span{
+	display:flex;
+	justify-content: center;
+	align-items: flex-end;
+}
