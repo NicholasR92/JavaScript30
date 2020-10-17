@@ -8,9 +8,4 @@ window.addEventListener('keydown', function(e){
 	console.log(key);
 });
 
-window.addEventListener('keyup', function(e){
-	const audio = document.querySelector(`audio[class="${e.keyCode}"]`);
-	
-	audio.pause();
-	
-});
+
